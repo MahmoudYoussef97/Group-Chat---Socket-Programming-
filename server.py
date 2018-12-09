@@ -37,7 +37,6 @@ def client_thread(conn, address):
             continue
 
 """ Sending Messages to all users except the sender """
-
 def broadcast(messages, connection):
     for client in clients:
         if client != connection:
