@@ -4,7 +4,6 @@ import threading    #import threading for using Multithread
 
 """AF_INET is the address family of the socket. This is used when we have an Internet Domain with 
 any two hosts, SOCK_STREAM means that data or characters are read in a continuous flow. TCP """
-
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostname()             # Return a string containing the hostname of the machine
 port = 2424
